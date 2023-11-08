@@ -1,0 +1,22 @@
+{
+  "name": "basic-webdev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "start": "http-server & open http://127.0.0.1:8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epic404/basic-webdev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/epic404/basic-webdev/issues"
+  },
+  "homepage": "https://github.com/epic404/basic-webdev#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
