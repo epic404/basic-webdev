@@ -1,0 +1,44 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background: seashell;
+}
+
+.form-container {
+  height: 100%;
+  width: 100%;
+  border: 1px solid cyan;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text-field {
+  display: block;
+  border: 1px solid turquoise;
+  box-shadow: none;
+  margin: 4px 0px;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.text-field:focus {
+  outline: none;
+}
+
+.submit-btn {
+  border-radius: 4px;
+  padding: 4px 8px;
+  box-shadow: none;
+  border: 1px solid indianred;
+  background: seashell;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  cursor: pointer;
+  border: 1px solid turquoise;
+}
